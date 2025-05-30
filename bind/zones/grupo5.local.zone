@@ -1,0 +1,14 @@
+$TTL 86400
+@   IN  SOA ns1.grupo5.local. admin.grupo5.local. (
+        20250530 ; Serial
+        3600     ; Refresh
+        1800     ; Retry
+        1209600  ; Expire
+        86400 )  ; Minimum TTL
+
+     IN  NS  ns1.grupo5.local.
+@    IN	 A   3.149.27.132
+ns1  IN  A   3.149.27.132
+web  IN  A   3.149.27.132
+
+www  IN	 CNAME grupo5.local. 

@@ -1,0 +1,11 @@
+$TTL 86400
+@   IN  SOA ns1.grupo5.local. admin.grupo5.local. (
+        20250530 ; Serial
+        3600     ; Refresh
+        1800     ; Retry
+        1209600  ; Expire
+        86400 )  ; Minimum TTL
+
+     IN  NS  ns1.grupo5.local.
+132  IN  PTR ns1.grupo5.local.
+
