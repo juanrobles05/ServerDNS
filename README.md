@@ -37,11 +37,11 @@ Este proyecto consistió en la implementación de un servidor DNS utilizando BIN
         1209600    ; Expire
         86400 )    ; Minimum TTL
 
-        Se modificó /etc/bind/named.conf.local para incluir las zonas:
         @ IN NS ns1.grupo5.local.
         132 IN PTR grupo5.local.
         132 IN PTR ns1.grupo5.local.
 
+        Se modificó /etc/bind/named.conf.local para incluir las zonas:
         zone "grupo5.local" {
             type master;
             file "/etc/bind/zones/grupo5.local.db";
