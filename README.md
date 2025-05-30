@@ -14,5 +14,5 @@ Este documento describe cómo conectarse a una instancia EC2 en AWS utilizando u
 
 ## Comando
 ``` bash
-ssh -i ServerDns ubuntu@3.149.27.132
+ssh -i ServerDns.pem ubuntu@3.149.27.132
 ´´´
