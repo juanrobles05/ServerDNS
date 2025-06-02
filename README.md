@@ -5,6 +5,10 @@
 ## Introducción
 Este proyecto consistió en la implementación de un servidor DNS utilizando BIND9 en un entorno virtualizado, cumpliendo con los requisitos especificados en el proyecto final. Se configuraron zonas DNS directas e inversas, se implementaron medidas de seguridad básicas y se validó el funcionamiento correcto del servicio.
 
+## Video demostrativo
+Enlace de descarga de video de sustentación:
+[Video demostrativo](./sustentación.mp4)
+
 ## Desarrollo
 
 ### 1. Configuración del Entorno
@@ -73,4 +77,3 @@ Este documento describe cómo conectarse a una instancia EC2 en AWS utilizando u
 ## Comando
 ``` bash
 ssh -i ServerDns.pem ubuntu@3.149.27.132
-´´´
